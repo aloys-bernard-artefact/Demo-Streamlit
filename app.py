@@ -27,6 +27,7 @@ st.title("Hello World")
 
 if st.button("Click me !") : 
     st.balloons()
+    st.text(f'Le secret est {st.secrets["db_username"]} {st.secrets["db_password"]}')
     
     
 st.subheader("Pierre Feuille Ciseaux")
